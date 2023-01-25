@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/selectedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/_09_50_pm"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="46sp" />
+
+    <Button
+        android:id="@+id/selectTimeBtnID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/select_time"
+        android:backgroundTint="@android:color/holo_green_dark"/>
+    <Button
+        android:id="@+id/setRepeatingAlarmBtnID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/set_repeating_alarm"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/singlAlarmBtnID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/set_signle_alarm" />
+
+    <Button
+        android:id="@+id/setInexactRepeatingAlarmBtnID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/set_inexact_repeating_alarm" />
+
+    <Button
+        android:id="@+id/cancelRepratingBtnID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/cancel_repeating_alarm"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="90dp"/>
+
+</LinearLayout>

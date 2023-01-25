@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Alarm</string>
+    <string name="set_signle_alarm">Set Signle Alarm</string>
+    <string name="set_repeating_alarm">Set Repeating Alarm (By Calender)</string>
+    <string name="set_inexact_repeating_alarm">Set Inexact Repeating Alarm</string>
+    <string name="cancel_repeating_alarm">Cancel Alarms</string>
+    <string name="select_time">SELECT TIME</string>
+    <string name="_09_50_pm">09 : 50 PM</string>
+</resources>
